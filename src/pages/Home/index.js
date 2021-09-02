@@ -37,7 +37,7 @@ const Home = () => {
           fontSize: 32,
         }}
       >
-        Teste da fonte nova
+        Teste da fonte nova !!!!
       </Text>
       <Input
         value={user}
