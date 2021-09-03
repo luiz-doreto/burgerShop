@@ -10,7 +10,7 @@ const Home = () => {
   const [user, setUser] = useState('');
 
   const handlePress = async () => {
-    const response = await api.post('auth/signup', {
+    const response = await api.post('auth/cadastro', {
       fullname: user,
       username: 'jose.silva@iteris.com.br',
       cpf: '11111111111',
