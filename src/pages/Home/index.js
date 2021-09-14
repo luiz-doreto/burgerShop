@@ -1,35 +1,26 @@
-import React, { useState } from 'react';
-import { View, StatusBar, Text } from 'react-native';
+import React, { useState, useRef } from 'react';
+import { View, TouchableOpacity, Text } from 'react-native';
 
-import api from '~/services/api';
+import BottomSheet from '~/components/BottomSheet';
 import { SafeArea } from './styles';
 import Logo from '~/assets/logo.svg';
 import Input from '~/components/Input';
 
 const Home = () => {
   const [user, setUser] = useState('');
-
-  const handlePress = async () => {
-    const response = await api.post('auth/cadastro', {
-      fullname: user,
-      username: 'jose.silva@iteris.com.br',
-      cpf: '11111111111',
-      date_birth: '2021-08-05',
-      state: 'Amazonas',
-      city: 'Manaus',
-      password: '12345',
-    });
-
-    console.log(response.data);
-  };
+  const bottomRef = useRef(null);
 
   return (
     <SafeArea>
-      <StatusBar barStyle="light-content" />
       <View>
         <Logo width={400} height={100} />
       </View>
-      <Text
+      <BottomSheet ref={bottomRef}>
+        <TouchableOpacity onPress={() => bottomRef.current.close()}>
+          <Text>CLOSE!!</Text>
+        </TouchableOpacity>
+      </BottomSheet>
+      {/* <Text
         style={{
           color: 'white',
           padding: 20,
@@ -38,13 +29,16 @@ const Home = () => {
         }}
       >
         Teste da fonte nova !!!!
-      </Text>
+      </Text> */}
       <Input
         value={user}
         onChangeText={(value) => setUser(value)}
         text="Usuário"
         type="user"
       />
+      <TouchableOpacity onPress={() => bottomRef?.current?.expand()}>
+        <Text style={{ color: 'white' }}>OPEN!</Text>
+      </TouchableOpacity>
     </SafeArea>
   );
 };

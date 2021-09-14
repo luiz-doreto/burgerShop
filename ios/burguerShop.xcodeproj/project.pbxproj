@@ -12,11 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		45A6DBA626D1DD09409A8508 /* libPods-burguerShop-burguerShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 358D4AA96DEF57C936907E01 /* libPods-burguerShop-burguerShopTests.a */; };
 		77E5417708684BF0B4773FF0 /* Geomanist-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24F145BC5A2E48CD98785E41 /* Geomanist-Regular.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A5A446DFB06F6A70642C0D12 /* libPods-burguerShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982345489F7A0C88C1D8C5 /* libPods-burguerShop.a */; };
 		C2449AA7CD764C08865489A9 /* Geomanist-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F397201A6C5403D9D082BAD /* Geomanist-Regular-Italic.otf */; };
-		CD75B38A13907422CFE46999 /* libPods-burguerShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9B8C4B68E5F5BE1CCE6C1 /* libPods-burguerShop.a */; };
+		CCF9322BFBE1C37C09C30F92 /* libPods-burguerShop-burguerShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E38DED4B75A7EB6ACC9D03B /* libPods-burguerShop-burguerShopTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,7 @@
 		00E356EE1AD99517003FC87E /* burguerShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = burguerShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* burguerShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = burguerShopTests.m; sourceTree = "<group>"; };
+		0E38DED4B75A7EB6ACC9D03B /* libPods-burguerShop-burguerShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-burguerShop-burguerShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* burguerShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = burguerShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = burguerShop/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = burguerShop/AppDelegate.m; sourceTree = "<group>"; };
@@ -40,16 +41,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = burguerShop/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = burguerShop/main.m; sourceTree = "<group>"; };
 		24F145BC5A2E48CD98785E41 /* Geomanist-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular.otf"; path = "../src/assets/fonts/Geomanist-Regular.otf"; sourceTree = "<group>"; };
-		358D4AA96DEF57C936907E01 /* libPods-burguerShop-burguerShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-burguerShop-burguerShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38615ED851B35EB2582D6B68 /* Pods-burguerShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop.debug.xcconfig"; path = "Target Support Files/Pods-burguerShop/Pods-burguerShop.debug.xcconfig"; sourceTree = "<group>"; };
 		3F397201A6C5403D9D082BAD /* Geomanist-Regular-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular-Italic.otf"; path = "../src/assets/fonts/Geomanist-Regular-Italic.otf"; sourceTree = "<group>"; };
-		57A15F3C86887F3104A4000F /* Pods-burguerShop-burguerShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop-burguerShopTests.release.xcconfig"; path = "Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests.release.xcconfig"; sourceTree = "<group>"; };
-		58434A4D000117B2514DF71C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop-burguerShopTests.debug.xcconfig"; path = "Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A63DB11C2860169B2FE1346 /* Pods-burguerShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop.release.xcconfig"; path = "Target Support Files/Pods-burguerShop/Pods-burguerShop.release.xcconfig"; sourceTree = "<group>"; };
+		5C2E7382A0FECD5E889D2961 /* Pods-burguerShop-burguerShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop-burguerShopTests.release.xcconfig"; path = "Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests.release.xcconfig"; sourceTree = "<group>"; };
 		75808847BC4C4D87973C9381 /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Bold.ttf"; path = "../src/assets/fonts/Geomanist-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = burguerShop/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AD6346E964B53E1B52F83DA7 /* Pods-burguerShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop.release.xcconfig"; path = "Target Support Files/Pods-burguerShop/Pods-burguerShop.release.xcconfig"; sourceTree = "<group>"; };
+		BC982345489F7A0C88C1D8C5 /* libPods-burguerShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-burguerShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDC2D33B36D5CE5B9B34A3C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop-burguerShopTests.debug.xcconfig"; path = "Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F4E9B8C4B68E5F5BE1CCE6C1 /* libPods-burguerShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-burguerShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6305465E021F628F15E999 /* Pods-burguerShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop.debug.xcconfig"; path = "Target Support Files/Pods-burguerShop/Pods-burguerShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A6DBA626D1DD09409A8508 /* libPods-burguerShop-burguerShopTests.a in Frameworks */,
+				CCF9322BFBE1C37C09C30F92 /* libPods-burguerShop-burguerShopTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD75B38A13907422CFE46999 /* libPods-burguerShop.a in Frameworks */,
+				A5A446DFB06F6A70642C0D12 /* libPods-burguerShop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,19 +106,19 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F4E9B8C4B68E5F5BE1CCE6C1 /* libPods-burguerShop.a */,
-				358D4AA96DEF57C936907E01 /* libPods-burguerShop-burguerShopTests.a */,
+				BC982345489F7A0C88C1D8C5 /* libPods-burguerShop.a */,
+				0E38DED4B75A7EB6ACC9D03B /* libPods-burguerShop-burguerShopTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		35572B01BDF3915B1D2F641E /* Pods */ = {
+		3A2A65E7C6C716CDBBF459BF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38615ED851B35EB2582D6B68 /* Pods-burguerShop.debug.xcconfig */,
-				AD6346E964B53E1B52F83DA7 /* Pods-burguerShop.release.xcconfig */,
-				58434A4D000117B2514DF71C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */,
-				57A15F3C86887F3104A4000F /* Pods-burguerShop-burguerShopTests.release.xcconfig */,
+				EF6305465E021F628F15E999 /* Pods-burguerShop.debug.xcconfig */,
+				5A63DB11C2860169B2FE1346 /* Pods-burguerShop.release.xcconfig */,
+				CCDC2D33B36D5CE5B9B34A3C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */,
+				5C2E7382A0FECD5E889D2961 /* Pods-burguerShop-burguerShopTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -139,8 +139,8 @@
 				00E356EF1AD99517003FC87E /* burguerShopTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				35572B01BDF3915B1D2F641E /* Pods */,
 				CEC34506D60445BEAF711169 /* Resources */,
+				3A2A65E7C6C716CDBBF459BF /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,12 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "burguerShopTests" */;
 			buildPhases = (
-				DF83E927439C1828ED647359 /* [CP] Check Pods Manifest.lock */,
+				50144430641DFF46958DCD12 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				B7B63DB9BFE2027D68FE1B27 /* [CP] Embed Pods Frameworks */,
-				7220DADD1FC65BED6025942A /* [CP] Copy Pods Resources */,
+				CE8A6E9CC3B66471ABE69A92 /* [CP] Embed Pods Frameworks */,
+				38ABFF848BFA5F1B62D4A999 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,14 +195,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "burguerShop" */;
 			buildPhases = (
-				3492615F2AD58F2598F88242 /* [CP] Check Pods Manifest.lock */,
+				4CC43CCB435E79137782E451 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2B8C7B9C10B054FEFC48BBD3 /* [CP] Embed Pods Frameworks */,
-				DC7DA0525CC7990697D1782B /* [CP] Copy Pods Resources */,
+				81CAF11CEA29C30C917E1581 /* [CP] Embed Pods Frameworks */,
+				A098C4A25E82A8DB11D3F574 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,24 +286,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		2B8C7B9C10B054FEFC48BBD3 /* [CP] Embed Pods Frameworks */ = {
+		38ABFF848BFA5F1B62D4A999 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3492615F2AD58F2598F88242 /* [CP] Check Pods Manifest.lock */ = {
+		4CC43CCB435E79137782E451 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,58 +325,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7220DADD1FC65BED6025942A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7B63DB9BFE2027D68FE1B27 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC7DA0525CC7990697D1782B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF83E927439C1828ED647359 /* [CP] Check Pods Manifest.lock */ = {
+		50144430641DFF46958DCD12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,6 +345,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81CAF11CEA29C30C917E1581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A098C4A25E82A8DB11D3F574 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop/Pods-burguerShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8A6E9CC3B66471ABE69A92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -450,7 +450,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58434A4D000117B2514DF71C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */;
+			baseConfigurationReference = CCDC2D33B36D5CE5B9B34A3C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -477,7 +477,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A15F3C86887F3104A4000F /* Pods-burguerShop-burguerShopTests.release.xcconfig */;
+			baseConfigurationReference = 5C2E7382A0FECD5E889D2961 /* Pods-burguerShop-burguerShopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -501,7 +501,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38615ED851B35EB2582D6B68 /* Pods-burguerShop.debug.xcconfig */;
+			baseConfigurationReference = EF6305465E021F628F15E999 /* Pods-burguerShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -527,7 +527,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD6346E964B53E1B52F83DA7 /* Pods-burguerShop.release.xcconfig */;
+			baseConfigurationReference = 5A63DB11C2860169B2FE1346 /* Pods-burguerShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
