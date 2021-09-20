@@ -1,9 +1,10 @@
 import React, { forwardRef, useCallback } from 'react';
 import RNBottomSheet, { BottomSheetBackdrop } from '@gorhom/bottom-sheet';
+import { Portal } from 'react-native-portalize';
 
 // import { Container } from './styles';
 
-const BottomSheet = forwardRef(({ children }, ref) => {
+const BottomSheet = forwardRef(({ children, snapPoints }, ref) => {
   const renderBackdrop = useCallback(
     (props) => (
       <BottomSheetBackdrop
@@ -16,15 +17,17 @@ const BottomSheet = forwardRef(({ children }, ref) => {
   );
 
   return (
-    <RNBottomSheet
-      ref={ref}
-      index={-1}
-      snapPoints={['50%']}
-      backgroundStyle={{ backgroundColor: 'orange' }}
-      backdropComponent={renderBackdrop}
-    >
-      {children}
-    </RNBottomSheet>
+    <Portal>
+      <RNBottomSheet
+        ref={ref}
+        index={-1}
+        snapPoints={snapPoints}
+        backgroundStyle={{ backgroundColor: 'orange' }}
+        backdropComponent={renderBackdrop}
+      >
+        {children}
+      </RNBottomSheet>
+    </Portal>
   );
 });
 

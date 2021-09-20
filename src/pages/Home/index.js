@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, TouchableOpacity, Text, ScrollView } from 'react-native';
 
-import BottomSheet from '~/components/BottomSheet';
+import Select from '~/components/Select';
 import { SafeArea } from './styles';
 import Logo from '~/assets/logo.svg';
 import Input from '~/components/Input';
@@ -9,18 +9,15 @@ import Input from '~/components/Input';
 const Home = () => {
   const [user, setUser] = useState('');
   const bottomRef = useRef(null);
+  const [city, setCity] = useState('UBIRATÃ');
 
   return (
     <SafeArea>
-      <View>
-        <Logo width={400} height={100} />
-      </View>
-      <BottomSheet ref={bottomRef}>
-        <TouchableOpacity onPress={() => bottomRef.current.close()}>
-          <Text>CLOSE!!</Text>
-        </TouchableOpacity>
-      </BottomSheet>
-      {/* <Text
+      <ScrollView>
+        <View>
+          <Logo width={400} height={100} />
+        </View>
+        {/* <Text
         style={{
           color: 'white',
           padding: 20,
@@ -30,15 +27,19 @@ const Home = () => {
       >
         Teste da fonte nova !!!!
       </Text> */}
-      <Input
-        value={user}
-        onChangeText={(value) => setUser(value)}
-        text="Usuário"
-        type="user"
-      />
-      <TouchableOpacity onPress={() => bottomRef?.current?.expand()}>
-        <Text style={{ color: 'white' }}>OPEN!</Text>
-      </TouchableOpacity>
+        <Input
+          value={user}
+          onChangeText={(value) => setUser(value)}
+          text="Usuário"
+          type="user"
+        />
+        <TouchableOpacity onPress={() => bottomRef?.current?.expand()}>
+          <Text style={{ color: 'white' }}>OPEN!</Text>
+        </TouchableOpacity>
+        <View style={{ height: 300, backgroundColor: 'pink' }}>
+          <Select ref={bottomRef} value={city} onChange={setCity} />
+        </View>
+      </ScrollView>
     </SafeArea>
   );
 };
