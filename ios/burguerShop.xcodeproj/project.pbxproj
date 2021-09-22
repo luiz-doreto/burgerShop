@@ -40,11 +40,11 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = burguerShop/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = burguerShop/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = burguerShop/main.m; sourceTree = "<group>"; };
-		24F145BC5A2E48CD98785E41 /* Geomanist-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular.otf"; path = "../src/assets/fonts/Geomanist-Regular.otf"; sourceTree = "<group>"; };
-		3F397201A6C5403D9D082BAD /* Geomanist-Regular-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular-Italic.otf"; path = "../src/assets/fonts/Geomanist-Regular-Italic.otf"; sourceTree = "<group>"; };
+		24F145BC5A2E48CD98785E41 /* Geomanist-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular.otf"; path = "../src/assets/fonts/Geomanist-Regular.otf"; sourceTree = "<group>"; };
+		3F397201A6C5403D9D082BAD /* Geomanist-Regular-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular-Italic.otf"; path = "../src/assets/fonts/Geomanist-Regular-Italic.otf"; sourceTree = "<group>"; };
 		5A63DB11C2860169B2FE1346 /* Pods-burguerShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop.release.xcconfig"; path = "Target Support Files/Pods-burguerShop/Pods-burguerShop.release.xcconfig"; sourceTree = "<group>"; };
 		5C2E7382A0FECD5E889D2961 /* Pods-burguerShop-burguerShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop-burguerShopTests.release.xcconfig"; path = "Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests.release.xcconfig"; sourceTree = "<group>"; };
-		75808847BC4C4D87973C9381 /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Bold.ttf"; path = "../src/assets/fonts/Geomanist-Bold.ttf"; sourceTree = "<group>"; };
+		75808847BC4C4D87973C9381 /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Bold.ttf"; path = "../src/assets/fonts/Geomanist-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = burguerShop/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC982345489F7A0C88C1D8C5 /* libPods-burguerShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-burguerShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDC2D33B36D5CE5B9B34A3C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burguerShop-burguerShopTests.debug.xcconfig"; path = "Target Support Files/Pods-burguerShop-burguerShopTests/Pods-burguerShop-burguerShopTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +120,6 @@
 				CCDC2D33B36D5CE5B9B34A3C /* Pods-burguerShop-burguerShopTests.debug.xcconfig */,
 				5C2E7382A0FECD5E889D2961 /* Pods-burguerShop-burguerShopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,7 +163,6 @@
 				24F145BC5A2E48CD98785E41 /* Geomanist-Regular.otf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +510,49 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Boost-iOSX\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-PeerTalk\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-RSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlipperKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(SDKROOT)/usr/lib/swift\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -536,6 +577,41 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(SDKROOT)/usr/lib/swift\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
