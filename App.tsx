@@ -6,7 +6,7 @@ import { Host } from 'react-native-portalize';
 import Home from '~/pages/Home';
 import theme from '~/theme.json';
 
-const App = () => (
+const App: React.FC = () => (
   <GestureHandlerRootView style={{ flex: 1 }}>
     <Host>
       <ThemeProvider theme={theme}>

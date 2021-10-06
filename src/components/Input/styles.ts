@@ -1,7 +1,11 @@
 import styled from 'styled-components/native';
 import { User, Key } from 'react-feather';
 
-export const Container = styled.View`
+type StyleProps = {
+  value: string;
+};
+
+export const Container = styled.View<StyleProps>`
   flex-direction: row;
   align-items: center;
   height: 40px;
@@ -15,10 +19,10 @@ export const TextInput = styled.TextInput`
   color: white;
 `;
 
-export const UserIcon = styled(User)`
+export const UserIcon = styled(User)<StyleProps>`
   color: ${({ value }) => (value ? 'orange' : 'white')};
 `;
 
-export const KeyIcon = styled(Key)`
+export const KeyIcon = styled(Key)<StyleProps>`
   color: ${({ value }) => (value ? 'orange' : 'white')};
 `;

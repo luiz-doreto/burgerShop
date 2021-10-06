@@ -2,7 +2,15 @@ import React from 'react';
 
 import { Container, TextInput, UserIcon, KeyIcon } from './styles';
 
-const Input = ({ value, onChangeText, text, type }) => {
+type InputProps = {
+  value: string;
+  // eslint-disable-next-line no-unused-vars
+  onChangeText: (text: string) => void;
+  text: string;
+  type: 'user' | 'password';
+};
+
+const Input: React.FC<InputProps> = ({ value, onChangeText, text, type }) => {
   const renderIcon = () =>
     ({
       user: <UserIcon value={value} />,
