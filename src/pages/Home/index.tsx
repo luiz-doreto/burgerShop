@@ -5,6 +5,7 @@ import Select from '~/components/Select';
 import { SafeArea } from './styles';
 import Logo from '~/assets/logo.svg';
 import Input from '~/components/Input';
+import DeterminateProgressBar from '~/components/ProgressBar';
 
 type BottomRefProp = {
   expand: () => void;
@@ -33,8 +34,16 @@ const Home: React.FC = () => {
         <TouchableOpacity onPress={() => bottomRef?.current?.expand()}>
           <Text style={{ color: 'white' }}>OPEN!</Text>
         </TouchableOpacity>
-        <View style={{ height: 300, backgroundColor: 'pink' }}>
-          <Select ref={bottomRef} value={city} onChange={setCity} />
+        <View
+          style={{
+            width: 300,
+            height: 300,
+            justifyContent: 'center',
+            backgroundColor: 'white',
+          }}
+        >
+          {/* <Select ref={bottomRef} value={city} onChange={setCity} /> */}
+          <DeterminateProgressBar progress={0.5} />
         </View>
       </ScrollView>
     </SafeArea>
